@@ -1,3 +1,3 @@
-function litres(time) {
-    return Math.floor(time/2);
+function digitize(n){
+    return (n + '').split('').map(Number).reverse();
 }
