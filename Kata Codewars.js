@@ -1,3 +1,3 @@
-function findNeedle(haystack) {
-    return "found the needle at position " + haystack.indexOf("needle");
+function lovefunc(flower1, flower2){
+    return flower1 % 2 !== flower2 % 2;
 }
