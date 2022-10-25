@@ -1,7 +1,3 @@
-function booleanToString(b){
-    if(b){
-        return "true";
-    }else{
-        return "false";
-    }
+function check(a, x) {
+    return a.includes(x) ? true : false;
 }
