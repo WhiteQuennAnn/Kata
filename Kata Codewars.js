@@ -1,5 +1,7 @@
-function greet(name){
-    if(name === "Johnny")
-        return "Hello, my love!";
-    return "Hello, " + name + "!";
+function hero(bullets, dragons) {
+    if (bullets >= dragons * 2) {
+        return true;
+    } else {
+        return false;
+    }
 }
