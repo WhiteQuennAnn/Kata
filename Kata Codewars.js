@@ -1,3 +1,5 @@
-function reverseWords(str){
-    return str.split(" ").reverse().join(" ");
+function greet(name){
+    if(name === "Johnny")
+        return "Hello, my love!";
+    return "Hello, " + name + "!";
 }
