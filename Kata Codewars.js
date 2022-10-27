@@ -1,7 +1,8 @@
-function hero(bullets, dragons) {
-    if (bullets >= dragons * 2) {
-        return true;
-    } else {
-        return false;
+var countSheep = function (num) {
+    let sheep = '';
+
+    for (i = 1; i <= num; i++) {
+        sheep += i + ' sheep...'
     }
+    return sheep
 }
